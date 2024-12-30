@@ -23,7 +23,7 @@ status = "Enabled"
 }
 terraform {
 backend "s3" {
-bucket = "sai.monolithic.project"
+bucket = "babi.momolithic.project"
 region = "us-east-1"
 key = "backup/terraform.tfstate"
 }
