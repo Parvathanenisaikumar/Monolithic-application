@@ -29,4 +29,4 @@
         repo: "https://github.com/devops0014/digital_marketing.git"
         dest: /var/www/html/
         update: yes
-        version: master
+        version: flm
