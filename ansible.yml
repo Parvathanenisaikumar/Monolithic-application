@@ -20,13 +20,13 @@
 
     - name: Delete existing directory
       file:
-        path: /var/www/html/
+        path: /var/www/
         state: absent
 
 
     - name: get the source code from github
       git:
-        repo: "https://github.com/devops0014/digital_marketing.git"
-        dest: /var/www/html/
+        repo: "https://github.com/devops0014/staticsite-docker.git"
+        dest: /var/www/
         update: yes
-        version: flm
+        version: master
