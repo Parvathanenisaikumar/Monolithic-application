@@ -21,5 +21,12 @@ versioning_configuration {
 status = "Enabled"
 }
 }
+terraform {
+backend "s3" {
+bucket = "sai.monolithic.project"
+region = "us-east-1"
+key = "backup/terraform.tfstate"
+}
+}
 
 
